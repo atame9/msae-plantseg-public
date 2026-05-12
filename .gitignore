@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Data and artifacts (large, regeneratable)
+data/
+activations/
+models/
+checkpoints/
+*.pt
+
+# Jupyter
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Test and coverage
+.coverage
+.pytest_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution
+*.tar.gz
+*.whl

@@ -1,0 +1,15 @@
+{
+  "lr": 5e-4,
+  "batch_size": 32768,
+  "n_epochs": 20,
+  "lam_sparse": 100.0,
+  "k_aux": 512,
+  "alpha_aux": 0.03125,
+  "dead_window": 50000,
+  "dead_refresh_every": 500,
+  "early_stop_patience_steps": 600,
+  "early_stop_threshold": 0.01,
+  "n_features": 12288,
+  "input_dim": 768,
+  "seed": 42
+}

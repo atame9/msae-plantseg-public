@@ -1,0 +1,28 @@
+[project]
+name = "msae"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.3",
+    "torchvision",
+    "scikit-learn",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "Pillow",
+    "huggingface_hub",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-xdist", "ruff"]
+
+[project.scripts]
+msae = "msae.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
